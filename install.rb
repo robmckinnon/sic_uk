@@ -25,7 +25,10 @@ class CreateSicUkTables < ActiveRecord::Migration
   # Group       10.1      Processing and preserving of meat and production of meat products
   # Class       10.11     Processing and preserving of meat
   # Subclass    10.51/1   Liquid milk and cream production
-  SIC_TABLES = [:sic_uk_sections, :sic_uk_subsections, :sic_uk_divisions, :sic_uk_groups, :sic_uk_classes, :sic_uk_subclasses]
+
+  def sic_tables
+    [:sic_uk_sections, :sic_uk_subsections, :sic_uk_divisions, :sic_uk_groups, :sic_uk_classes, :sic_uk_subclasses]
+  end
 
   def self.up
     foreign_keys = {
@@ -35,7 +38,7 @@ class CreateSicUkTables < ActiveRecord::Migration
         :sic_uk_classes => [:sic_uk_group_id, :sic_uk_division_id, :sic_uk_subsection_id, :sic_uk_section_id],
         :sic_uk_subclasses => [:sic_uk_class_id, :sic_uk_group_id, :sic_uk_division_id, :sic_uk_subsection_id, :sic_uk_section_id] }
 
-    SIC_TABLES.each do |table|
+    sic_tables.each do |table|
       create_table table do |t|
         t.integer :year
         t.string :code
@@ -55,7 +58,7 @@ class CreateSicUkTables < ActiveRecord::Migration
   end
 
   def self.down
-    SIC_TABLES.each {|table| drop_table table}
+    sic_tables.each {|table| drop_table table}
   end
 end
 %
