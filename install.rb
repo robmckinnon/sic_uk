@@ -50,17 +50,19 @@ class CreateSicUkTables < ActiveRecord::Migration
         t.integer :year
         t.string :code
         t.string :description
+
         foreign_keys[table].each do |foreign_key|
           t.integer foreign_key
-        end
+        end unless :sic_uk_sections
+
         if table == :sic_uk_classes
-          t.integer == :sic_uk_code
+          t.integer :sic_uk_code
         end
       end
 
       foreign_keys[table].each do |foreign_key|
         add_index table, foreign_key
-      end
+      end unless :sic_uk_sections
     end
   end
 
