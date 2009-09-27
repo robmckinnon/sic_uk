@@ -37,7 +37,7 @@ class CreateSicUkTables < ActiveRecord::Migration
   # Class       10.11     Processing and preserving of meat
   # Subclass    10.51/1   Liquid milk and cream production
 
-  def sic_tables
+  def self.sic_tables
     [:sic_uk_sections, :sic_uk_subsections, :sic_uk_divisions, :sic_uk_groups, :sic_uk_classes, :sic_uk_subclasses]
   end
 
