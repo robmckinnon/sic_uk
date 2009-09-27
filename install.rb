@@ -77,4 +77,4 @@ migration_file = "#{RAILS_ROOT}/db/migrate/#{version}_create_sic_uk_tables.rb"
 File.open(migration_file, 'w') {|file| file.write(migration)}
 
 puts "running: #{migration_file}"
-puts `cd #{RAILS_ROOT}; rake db:migrate`
+puts `cd #{RAILS_ROOT}; rake db:migrate --trace`
