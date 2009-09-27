@@ -5,6 +5,17 @@ rescue Exception => e
 end
 
 migration_file = `ls #{RAILS_ROOT}/db/migrate/*create_sic_uk_tables.rb`
+if migration_file && migration_file[/[^\d](\d+)_create_sic_uk_tables.rb/]
+  version = $1
+else
+  version = nil
+end
+
+begin
+  puts `cd #{RAILS_ROOT}; ./script/destroy migration create_sic_uk_tables`
+rescue Exception => e
+  puts e.to_s
+end
 
 migration = %Q%
 class CreateSicUkTables < ActiveRecord::Migration
@@ -64,6 +75,7 @@ end
 %
 
 puts "writing migration"
+migration_file = "#{RAILS_ROOT}/db/migrate/#{version}_create_sic_uk_tables.rb"
 File.open(migration_file, 'w') {|file| file.write(migration)}
 
 puts "running: #{migration_file}"
