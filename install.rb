@@ -9,6 +9,8 @@ end
 
 migration_file = `ls #{RAILS_ROOT}/db/migrate/*create_sic_uk_tables.rb`
 
+puts "trying to run: #{migration_file}"
+
 if File.exists?(migration_file)
   migration = IO.read("#{RAILS_ROOT}/vendor/plugins/sic-uk/data/create_sic_uk_tables.rb")
   File.open(migration_file, 'w') {|file| file.write(migration)}

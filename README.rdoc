@@ -6,4 +6,4 @@ Ruby on Rails plugin for UK's Standard Industrial Classification (SIC) codes.
 
 == To uninstall
 
- ./script/plugin install sic_uk
+ ./script/plugin remove git://github.com/robmckinnon/sic_uk.git
