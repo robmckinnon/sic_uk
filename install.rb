@@ -81,15 +81,6 @@ File.open(migration_file, 'w') {|file| file.write(migration)}
 puts "running: #{migration_file}"
 puts `cd #{RAILS_ROOT}; rake db:migrate --trace`
 
-data = IO.read(File.expand_path(File.dirname(__FILE__) + "/data/sic_uk_2003.tsv"))
-
-@section = nil
-@subsection = nil
-@division = nil
-@group = nil
-@class = nil
-@year = 2003
-
 def add_section code, description
   @subsection = nil
   @division = nil
@@ -140,29 +131,44 @@ def add_subclass code, description
       :sic_uk_class_id => @class.id
 end
 
-data.each_line do |line|
-  code, description = line.split("\t")
-  puts "adding: #{code} #{description}"
-  case code
-    when /^Section ([A-Z])$/
-      puts "  running: add_section"
-      add_section $1, description
-    when /^Subsection ([A-Z][A-Z])$/
-      puts "  running: add_subsection"
-      add_subsection $1, description
-    when /^\d\d$/
-      puts "  running: add_division"
-      add_division code, description
-    when /^\d\d\.\d$/
-      puts "  running: add_group"
-      add_group code, description
-    when /^\d\d\.\d\d$/
-      puts "  running: add_class"
-      add_class code, description
-    when /^\d\d\.\d\d\/\d$/
-      puts "  running: add_subclass"
-      add_subclass code, description
-    else
-      raise "cannot handle code: #{code}"
+def load_codes data, year
+  @year = year
+  @section = nil
+  @subsection = nil
+  @division = nil
+  @group = nil
+  @class = nil
+
+  data.each_line do |line|
+    code, description = line.split("\t")
+    puts "adding: #{code} #{description}"
+    case code
+      when /^Section ([A-Z])$/
+        puts "  running: add_section"
+        add_section $1, description
+      when /^Subsection ([A-Z][A-Z])$/
+        puts "  running: add_subsection"
+        add_subsection $1, description
+      when /^\d\d$/
+        puts "  running: add_division"
+        add_division code, description
+      when /^\d\d\.\d$/
+        puts "  running: add_group"
+        add_group code, description
+      when /^\d\d\.\d\d$/
+        puts "  running: add_class"
+        add_class code, description
+      when /^\d\d\.\d\d\/\d$/
+        puts "  running: add_subclass"
+        add_subclass code, description
+      else
+        raise "cannot handle code: #{code}"
+    end
   end
 end
+
+data = IO.read(File.expand_path(File.dirname(__FILE__) + "/data/sic_uk_2003.tsv"))
+load_codes data, 2003
+
+data = IO.read(File.expand_path(File.dirname(__FILE__) + "/data/sic_uk_2007.tsv"))
+load_codes data, 2007
