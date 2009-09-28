@@ -80,3 +80,5 @@ File.open(migration_file, 'w') {|file| file.write(migration)}
 
 puts "running: #{migration_file}"
 puts `cd #{RAILS_ROOT}; rake db:migrate --trace`
+
+puts IO.read(File.expand_path(File.dirname(__FILE__) + "/data/sic_uk_2003.tsv"))
