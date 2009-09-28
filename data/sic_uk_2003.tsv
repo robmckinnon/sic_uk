@@ -1,4 +1,4 @@
-Section A	Agriculture, Hunting and Forestry
+Section A	Agriculture, hunting and forestry
 01	Agriculture, Hunting and Related Service Activities
 01.1	Growing of crops; market gardening; horticulture
 01.11	Growing of cereals and other crops not elsewhere classified
@@ -30,7 +30,7 @@ Section B	Fishing
 05.0	Fishing, fish farming and related service activities
 05.01	Fishing
 05.02	Fish farming
-Section C	Mining and Quarrying
+Section C	Mining and quarrying
 Subsection CA	Mining and Quarrying of Energy Producing Materials
 10	Mining of Coal and Lignite; Extraction of Peat
 10.1	Mining and agglomeration of hard coal
@@ -548,7 +548,7 @@ Subsection DN	Manufacturing Not Elsewhere Classified
 37.10	Recycling of metal waste and scrap
 37.2	Recycling of non-metal waste and scrap
 37.20	Recycling of non-metal waste and scrap
-Section E	Electricity, Gas and Water Supply
+Section E	Electricity, gas and water supply
 40	Electricity, Gas, Steam and Hot Water Supply
 40.1	Production and distribution of electricity
 40.11	Production of electricity
@@ -589,7 +589,7 @@ Section F	Construction
 45.45	Other building completion
 45.5	Renting of construction or demolition equipment with operator
 45.50	Renting of construction or demolition equipment with operator
-Section G	Wholesale and Retail Trade; Repair of Motor Vehicles, Motorcycles and Personal and Household Goods
+Section G	Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods
 50	Sale, Maintenance and Repair of Motor Vehicles and Motorcycles; Retail Sale of Automotive Fuel
 50.1	Sale of motor vehicles
 50.10	Sale of motor vehicles
@@ -743,7 +743,7 @@ Section G	Wholesale and Retail Trade; Repair of Motor Vehicles, Motorcycles and 
 52.72	Repair of electrical household goods
 52.73	Repair of watches, clocks and jewellery
 52.74	Repair not elsewhere classified
-Section H	Hotels and Restaurants
+Section H	Hotels and restaurants
 55	Hotels and Restaurants
 55.1	Hotels
 55.10	Hotels
@@ -773,7 +773,7 @@ Section H	Hotels and Restaurants
 55.5	Canteens and catering
 55.51	Canteens
 55.52	Catering
-Section I	Transport, Storage and Communication
+Section I	Transport, storage and communications
 60	Land Transport; Transport Via Pipelines
 60.1	Transport via railways
 60.10	Transport via railways
@@ -845,7 +845,7 @@ Section I	Transport, Storage and Communication
 64.12	Courier activities other than national post activities
 64.2	Telecommunications
 64.20	Telecommunications
-Section J	Financial Intermediation
+Section J	Financial intermediation
 65	Financial Intermediation, Except Insurance and Pension Funding
 65.1	Monetary intermediation
 65.11	Central banking
@@ -888,7 +888,7 @@ Section J	Financial Intermediation
 67.13	Activities auxiliary to financial intermediation not elsewhere classified
 67.2	Activities auxiliary to insurance and pension funding
 67.20	Activities auxiliary to insurance and pension funding
-Section K	Real Estate, Renting and Business Activities
+Section K	Real estate, renting and business activities
 70	Real Estate Activities
 70.1	Real estate activities with own property
 70.11	Development and selling of real estate
@@ -1024,7 +1024,7 @@ Section K	Real Estate, Renting and Business Activities
 74.87/3	Activities of exhibition and fair organisers
 74.87/4	Activities of conference organisers
 74.87/9	Other business activities not elsewhere classified
-Section L	Public Administration and Defence; Compulsory Social Security
+Section L	Public administration and defence; compulsory social security
 75	Public Administration and Defence; Compulsory Social Security
 75.1	Administration of the State and the economic and social policy of the community
 75.11	General (overall) public service activities
@@ -1057,7 +1057,7 @@ Section M	Education
 80.42/1	Activities of private training providers
 80.42/2	This code is no longer in use
 80.42/9	Other adult and other education not elsewhere classified
-Section N	Health and Social Work
+Section N	Health and social work
 85	Health and Social Work
 85.1	Human health activities
 85.11	Hospital activities
@@ -1076,7 +1076,7 @@ Section N	Health and Social Work
 85.32	Social work activities without accommodation
 85.32/1	Charitable social work activities without accommodation
 85.32/2	Non-charitable social work activities without accommodation
-Section O	Other Community, Social and Personal Service Activities
+Section O	Other community, social and personal services activities
 90	Sewage and Refuse Disposal, Sanitation and Similar Activities
 90.0	Sewage and refuse disposal, sanitation and similar activities
 90.01	Collection and treatment of sewage
@@ -1142,7 +1142,7 @@ Section O	Other Community, Social and Personal Service Activities
 93.05	Other service activities not elsewhere classified
 93.05/1	Operation of coin-operated photographic machines
 93.05/9	Other service activities not elsewhere classified
-Section P	Private Households Employing Staff and Undifferentiated Production Activities of Households for Own Use
+Section P	Activities of private households as employers and undifferentiated production activities of private households
 95	Activities of Households as Employers of Domestic Staff
 95.0	Activities of households as employers of domestic staff
 95.00	Activities of households as employers of domestic staff
@@ -1152,7 +1152,7 @@ Section P	Private Households Employing Staff and Undifferentiated Production Act
 97	Undifferentiated Services Producing Activities of Private Households for Own Use
 97.0	Undifferentiated services producing activities of private households for own use
 97.00	Undifferentiated services producing activities of private households for own use
-Section Q	Extra-territorial Organisation and Bodies
+Section Q	Extraterritorial organisations and bodies
 99	Extra-territorial Organisations and Bodies
 99.0	Extra-territorial organisations and bodies
 99.00	Extra-territorial organisations and bodies
