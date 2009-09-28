@@ -4,6 +4,47 @@ Ruby on Rails plugin for UK's Standard Industrial Classification (SIC) codes.
 
  ./script/plugin install git://github.com/robmckinnon/sic_uk.git
 
+== To use
+
+Can be used from rails console:
+
+> ./script/console
+
+ SicUkSection.count(:conditions => 'year = 2003') #=> 17
+
+ SicUkSection.count(:conditions => 'year = 2007') #=> 21
+
+ SicUkSection.find_by_code_and_year('A', 2003).description
+ #=> "Agriculture, hunting and forestry"
+
+ SicUkSection.find_by_code_and_year('A', 2007).description
+ #=> "Agriculture, forestry and fishing"
+
+ sic_2003_1511 = SicUkClass.find_by_sic_uk_code_and_year(1511, 2003)
+
+ sic_2003_1511.description
+ #=> "Production and preserving of meat"
+
+ sic_2003_1511.code
+ #=> "15.11"
+
+ sic_2007_62012 = SicUkSubclass.find_by_code_and_year("62.01/2", 2007)
+
+ sic_2007_62012.description
+ #=> "Business and domestic software development"
+
+ sic_2007_62012.sic_uk_section.description
+ #=> "Information and communication"
+
+ sic_class = sic_2007_62012.sic_uk_class
+
+ sic_class.description
+ #=> "Computer programming activities"
+
+ sic_class.sic_uk_subclasses.collect{|x| x.description}
+ #=> ["Ready-made interactive leisure and entertainment software development",
+ #    "Business and domestic software development"]
+
 == To uninstall
 
  ./script/plugin remove git://github.com/robmckinnon/sic_uk.git

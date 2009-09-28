@@ -55,7 +55,7 @@ class CreateSicUkTables < ActiveRecord::Migration
           t.integer foreign_key
         end unless (table == :sic_uk_sections)
 
-        if table == :sic_uk_classes
+        if (table == :sic_uk_classes) || (table == :sic_uk_subclasses)
           t.integer :sic_uk_code
         end
       end
@@ -64,6 +64,9 @@ class CreateSicUkTables < ActiveRecord::Migration
         add_index table, foreign_key
       end unless (table == :sic_uk_sections)
     end
+
+    add_index :sic_uk_classes, :sic_uk_code
+    add_index :sic_uk_subclasses, :sic_uk_code
   end
 
   def self.down
@@ -128,7 +131,8 @@ def add_subclass code, description
       :sic_uk_subsection_id => (@subsection ? @subsection.id : nil),
       :sic_uk_division_id => @division.id,
       :sic_uk_group_id => @group.id,
-      :sic_uk_class_id => @class.id
+      :sic_uk_class_id => @class.id,
+      :sic_uk_code => code.sub('.','').sub('/','').to_i
 end
 
 def load_codes data, year
@@ -141,6 +145,7 @@ def load_codes data, year
 
   data.each_line do |line|
     code, description = line.split("\t")
+    description.strip!
     puts "adding: #{code} #{description}"
     case code
       when /^Section ([A-Z])$/
