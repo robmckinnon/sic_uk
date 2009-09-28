@@ -81,12 +81,10 @@ Subsection DA	Manufacture of Food Products, Beverages and Tobacco
 15.12	Production and preserving of poultry meat
 15.13	Production of meat and poultry meat products
 15.13/1	Bacon and ham production
-15.13/2	This code is no longer in use
 15.13/9	Other meat and poultry meat processing
 15.2	Processing and preserving of fish and fish products
 15.20	Processing and preserving of fish and fish products
 15.20/1	Freezing of fish
-15.20/2	This code is no longer in use
 15.20/9	Other fish processing and preserving
 15.3	Processing and preserving of fruit and vegetables
 15.31	Processing and preserving of potatoes
@@ -100,7 +98,6 @@ Subsection DA	Manufacture of Food Products, Beverages and Tobacco
 15.51	Operation of dairies and cheese making
 15.51/1	Liquid milk and cream production
 15.51/2	Butter and cheese production
-15.51/3	This code is no longer in use
 15.51/9	Manufacture of other milk products
 15.52	Manufacture of ice cream
 15.6	Manufacture of grain mill products, starches and starch products
@@ -126,7 +123,6 @@ Subsection DA	Manufacture of Food Products, Beverages and Tobacco
 15.88	Manufacture of homogenised food preparations and dietetic food
 15.89	Manufacture of other food products not elsewhere classified
 15.89/1	Manufacture of soups
-15.89/2	This code is no longer in use
 15.89/9	Manufacture of other food products not elsewhere classified
 15.9	Manufacture of beverages
 15.91	Manufacture of distilled potable alcoholic beverages
@@ -136,7 +132,6 @@ Subsection DA	Manufacture of Food Products, Beverages and Tobacco
 15.93/2	Manufacture of wine based on concentrated grape must
 15.94	Manufacture of cider and other fruit wines
 15.94/1	Manufacture of cider and perry
-15.94/2	This code is no longer in use
 15.94/9	Manufacture of other fermented fruit beverages
 15.95	Manufacture of other non-distilled fermented beverages
 15.96	Manufacture of beer
@@ -172,14 +167,12 @@ Subsection DB	Manufacture of Textiles and Textile Products
 17.51	Manufacture of carpets and rugs
 17.51/1	Manufacture of woven carpets and rugs
 17.51/2	Manufacture of tufted carpets and rugs
-17.51/3	This code is no longer in use
 17.51/9	Manufacture of other carpets and rugs
 17.52	Manufacture of cordage, rope, twine and netting
 17.53	Manufacture of non-wovens and articles made from non-wovens, except apparel
 17.54	Manufacture of other textiles not elsewhere classified
 17.54/1	Manufacture of lace
 17.54/2	Manufacture of narrow fabrics
-17.54/3	This code is no longer in use
 17.54/9	Manufacture of other textiles not elsewhere classified
 17.6	Manufacture of knitted and crocheted fabrics
 17.60	Manufacture of knitted and crocheted fabrics
@@ -199,7 +192,6 @@ Subsection DB	Manufacture of Textiles and Textile Products
 18.23/2	Manufacture of women's underwear
 18.24	Manufacture of other wearing apparel and accessories not elsewhere classified
 18.24/1	Manufacture of hats
-18.24/2	This code is no longer in use
 18.24/3	Cut, make and trim for clothing manufacturers (CMT)
 18.24/9	Manufacture of other wearing apparel and accessories not elsewhere classified
 18.3	Dressing and dyeing of fur; manufacture of articles of fur
@@ -233,7 +225,6 @@ Subsection DE	Manufacture of Pulp, Paper and Paper Products Publishing and Print
 21.2	Manufacture of articles of paper and paperboard
 21.21	Manufacture of corrugated paper and paperboard and of containers of paper and paperboard
 21.21/1	Manufacture of corrugated paper and paperboard, sacks and bags
-21.21/2	This code is no longer in use
 21.21/3	Manufacture of cartons, boxes and cases of corrugated paper and paperboard
 21.21/4	Manufacture of cartons, boxes and cases of non-corrugated paper and paperboard
 21.21/5	Manufacture of cartons and similar containers of paper and paperboard specifically designed for carrying liquids, whether or not waxed
@@ -269,7 +260,6 @@ Subsection DF	Manufacture of Coke, Refined Petroleum Products and Nuclear Fuel
 23.2	Manufacture of refined petroleum products
 23.20	Manufacture of refined petroleum products
 23.20/1	Mineral oil refining
-23.20/2	This code is no longer in use
 23.20/9	Other treatment of petroleum products (excluding petrochemicals manufacture)
 23.3	Processing of nuclear fuel
 23.30	Processing of nuclear fuel
@@ -320,7 +310,6 @@ Subsection DH	Manufacture of Rubber and Plastic Products
 25.22	Manufacture of plastic packing goods
 25.23	Manufacture of builders' ware of plastic
 25.23/1	Manufacture of plastic floor coverings
-25.23/2	This code is no longer in use
 25.23/9	Manufacture of other builders' ware of plastic
 25.24	Manufacture of other plastic products
 Subsection DI	Manufacture of Other Non-metallic Mineral Products
@@ -359,7 +348,6 @@ Subsection DI	Manufacture of Other Non-metallic Mineral Products
 26.81	Production of abrasive products
 26.82	Manufacture of other non-metallic mineral products not elsewhere classified
 26.82/1	Manufacture of asbestos
-26.82/2	This code is no longer in use
 26.82/9	Manufacture of other non-metallic mineral products not elsewhere classified
 Subsection DJ	Manufacture of Basic Metals and Fabricated Metal Products
 27	Manufacture of Basic Metals
@@ -373,7 +361,6 @@ Subsection DJ	Manufacture of Basic Metals and Fabricated Metal Products
 27.32	Cold rolling of narrow strip
 27.33	Cold forming or folding
 27.34	Wire drawing
-27.35	This code is no longer in use
 27.4	Manufacture of basic precious and non-ferrous metals
 27.41	Precious metals production
 27.42	Aluminium production
@@ -534,14 +521,12 @@ Subsection DN	Manufacturing Not Elsewhere Classified
 36.5	Manufacture of games and toys
 36.50	Manufacture of games and toys
 36.50/1	Manufacture of professional and arcade games and toys
-36.50/2	This code is no longer in use
 36.50/9	Manufacture of other games and toys not elsewhere classified
 36.6	Miscellaneous manufacturing not elsewhere classified
 36.61	Manufacture of imitation jewellery
 36.62	Manufacture of brooms and brushes
 36.63	Other manufacturing not elsewhere classified
 36.63/1	Manufacture of miscellaneous stationers' goods
-36.63/2	This code is no longer in use
 36.63/9	Other manufacturing not elsewhere classified
 37	Recycling
 37.1	Recycling of metal waste and scrap
@@ -652,7 +637,6 @@ Section G	Wholesale and retail trade; repair of motor vehicles, motorcycles and 
 51.46	Wholesale of pharmaceutical goods
 51.47	Wholesale of other household goods
 51.47/1	Wholesale of furniture
-51.47/2	This code is no longer in use
 51.47/3	Wholesale of jewellery
 51.47/4	Wholesale of imitation jewellery
 51.47/5	Wholesale of musical instruments
@@ -663,7 +647,6 @@ Section G	Wholesale and retail trade; repair of motor vehicles, motorcycles and 
 51.5	Wholesale of non-agricultural intermediate products, waste and scrap
 51.51	Wholesale of solid, liquid and gaseous fuels and related products
 51.51/1	Wholesale of petroleum and petroleum products
-51.51/2	This code is no longer in use
 51.51/9	Wholesale of other fuels and related products
 51.52	Wholesale of metals and ores
 51.53	Wholesale of wood, construction materials and sanitary equipment
@@ -671,8 +654,6 @@ Section G	Wholesale and retail trade; repair of motor vehicles, motorcycles and 
 51.55	Wholesale of chemical products
 51.56	Wholesale of other intermediate products
 51.57	Wholesale of waste and scrap
-51.6	This code is no longer in use
-51.7	This code is no longer in use
 51.8	Wholesale of machinery, equipment and supplies
 51.81	Wholesale of machine tools
 51.82	Wholesale of mining, construction and civil engineering machinery
@@ -690,7 +671,6 @@ Section G	Wholesale and retail trade; repair of motor vehicles, motorcycles and 
 52.11/1	Retail sale by confectioners, tobacconists and newsagents (CTNs)
 52.11/2	Retail sale in non-specialised stores (excluding CTNs) holding an alcohol licence with food, beverages or tobacco predominating
 52.11/3	Retail sale in non-specialised stores (excluding CTNs) not holding an alcohol licence with food, beverages or tobacco predominating
-52.11/9	This code is no longer in use
 52.12	Other retail sale in non-specialised stores
 52.2	Retail sale of food, beverages and tobacco in specialised stores
 52.21	Retail sale of fruit and vegetables
@@ -723,7 +703,6 @@ Section G	Wholesale and retail trade; repair of motor vehicles, motorcycles and 
 52.48	Other retail sale in specialised stores
 52.48/1	Retail sale of floor coverings
 52.48/2	Retail sale of photographic, optical and precision equipment, office supplies and equipment (including computers, etc.)
-52.48/3	This code is no longer in use
 52.48/4	Retail sale of jewellery, clocks and watches
 52.48/5	Retail sale of sports goods, games and toys, stamps and coins
 52.48/6	Retail sale in commercial art galleries
@@ -756,7 +735,6 @@ Section H	Hotels and restaurants
 55.23	Other provision of lodgings not elsewhere classified
 55.23/1	Holiday centres and holiday villages
 55.23/2	Other self-catering holiday accommodation
-55.23/3	This code is no longer in use
 55.23/9	Other tourist or short-stay accommodation
 55.3	Restaurants
 55.30	Restaurants
@@ -778,12 +756,10 @@ Section I	Transport, storage and communications
 60.1	Transport via railways
 60.10	Transport via railways
 60.10/1	Inter-city services
-60.10/2	This code is no longer in use
 60.10/9	Other transport via railways
 60.2	Other land transport
 60.21	Other scheduled passenger land transport
 60.21/1	Inter-city coach services
-60.21/2	This code is no longer in use
 60.21/3	Urban and suburban passenger transportation by underground, metro and similar systems
 60.21/9	Other scheduled passenger land transport not elsewhere classified
 60.22	Taxi operation
@@ -803,18 +779,15 @@ Section I	Transport, storage and communications
 61.2	Inland water transport
 61.20	Inland water transport
 61.20/1	Passenger inland water transport
-61.20/2	This code is no longer in use
 61.20/9	Other inland water transport
 62	Air Transport
 62.1	Scheduled air transport
 62.10	Scheduled air transport
 62.10/1	Scheduled passenger air transport
-62.10/2	This code is no longer in use
 62.10/9	Other scheduled air transport
 62.2	Non-scheduled air transport
 62.20	Non-scheduled air transport
 62.20/1	Non-scheduled passenger air transport
-62.20/2	This code is no longer in use
 62.20/9	Other non-scheduled air transport
 62.3	Space transport
 62.30	Space transport
@@ -835,7 +808,6 @@ Section I	Transport, storage and communications
 63.30/1	Activities of travel agencies
 63.30/2	Activities of travel organisers
 63.30/3	Activities of tour guides
-63.30/4	This code is no longer in use
 63.30/9	Other tourist assistance activities not elsewhere classified
 63.4	Activities of other transport agencies
 63.40	Activities of other transport agencies
@@ -858,7 +830,6 @@ Section J	Financial intermediation
 65.22/1	Credit granting by non-deposit taking finance houses and other specialist consumer credit grantors
 65.22/2	Factoring
 65.22/3	Activities of mortgage finance companies
-65.22/4	This code is no longer in use
 65.22/9	Other credit granting not elsewhere classified
 65.23	Other financial intermediation not elsewhere classified
 65.23/1	Activities of investment trusts
@@ -866,7 +837,6 @@ Section J	Financial intermediation
 65.23/3	Security dealing on own account
 65.23/4	Activities of bank holding companies
 65.23/5	Activities of venture and development capital companies
-65.23/6	This code is no longer in use
 65.23/7	Activities of open-ended investment companies
 65.23/8	Activities of property unit trusts
 65.23/9	Financial intermediation not elsewhere classified
@@ -896,7 +866,6 @@ Section K	Real estate, renting and business activities
 70.2	Letting of own property
 70.20	Letting of own property
 70.20/1	Letting of conference and exhibition centres
-70.20/2	This code is no longer in use
 70.20/9	Other letting of own property
 70.3	Real estate activities on a fee or contract basis
 70.31	Real estate agencies
@@ -907,15 +876,12 @@ Section K	Real estate, renting and business activities
 71.2	Renting of other transport equipment
 71.21	Renting of other land transport equipment
 71.21/1	Renting of passenger land transport equipment
-71.21/2	This code is no longer in use
 71.21/9	Renting of other land transport equipment
 71.22	Renting of water transport equipment
 71.22/1	Renting of passenger water transport equipment
-71.22/2	This code is no longer in use
 71.22/9	Renting of other water transport equipment
 71.23	Renting of air transport equipment
 71.23/1	Renting of passenger air transport equipment
-71.23/2	This code is no longer in use
 71.23/9	Renting of other air transport equipment
 71.3	Renting of other machinery and equipment
 71.31	Renting of agricultural machinery and equipment
@@ -925,7 +891,6 @@ Section K	Real estate, renting and business activities
 71.4	Renting of personal and household goods not elsewhere classified
 71.40	Renting of personal and household goods not elsewhere classified
 71.40/1	Renting of sporting and recreational equipment
-71.40/2	This code is no longer in use
 71.40/3	Renting of radios, televisions, video recorders and DVD players
 71.40/4	Renting of records and other pre-recorded media
 71.40/5	Renting of video tapes and DVDs
@@ -1008,14 +973,11 @@ Section K	Real estate, renting and business activities
 74.70/9	Cleaning activities not elsewhere classified
 74.8	Miscellaneous business activities not elsewhere classified
 74.81	Photographic activities
-74.81/1	This code is no longer in use
 74.81/2	Portrait photographic activities
 74.81/3	Other specialist photography
 74.81/4	Film processing
 74.81/9	Photographic activities not elsewhere classified
 74.82	Packaging activities
-74.83	This code is no longer in use
-74.84	This code is no longer in use
 74.85	Secretarial and translation activities
 74.86	Call centre activities
 74.87	Other business activities not elsewhere classified
@@ -1055,7 +1017,6 @@ Section M	Education
 80.41	Driving school activities
 80.42	Adult and other education not elsewhere classified
 80.42/1	Activities of private training providers
-80.42/2	This code is no longer in use
 80.42/9	Other adult and other education not elsewhere classified
 Section N	Health and social work
 85	Health and Social Work
@@ -1106,7 +1067,6 @@ Section O	Other community, social and personal services activities
 92.3	Other entertainment activities
 92.31	Artistic and literary creation and interpretation
 92.31/1	Live theatrical presentation
-92.31/2	This code is no longer in use
 92.31/9	Other artistic and literary creation and interpretation
 92.32	Operation of arts facilities
 92.33	Fair and amusement park activities
